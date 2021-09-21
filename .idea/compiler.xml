@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="settings-module" />
+        <module name="sonar-jacoco-single-module" />
+        <module name="code-module" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="code-coverage" target="1.5" />
+      <module name="code-module" target="1.8" />
+      <module name="settings-module" target="1.8" />
+      <module name="sonar-jacoco-multi-module" target="11" />
+      <module name="sonar-jacoco-single-module" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

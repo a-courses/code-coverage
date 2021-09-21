@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/code-coverage.iml" filepath="$PROJECT_DIR$/.idea/code-coverage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sonar-jacoco-multi-module/code-module/code-module.iml" filepath="$PROJECT_DIR$/sonar-jacoco-multi-module/code-module/code-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/settings-module/settings-module.iml" filepath="$PROJECT_DIR$/settings-module/settings-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sonar-jacoco-multi-module/sonar-jacoco-multi-module.iml" filepath="$PROJECT_DIR$/sonar-jacoco-multi-module/sonar-jacoco-multi-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sonar-jacoco-single-module/sonar-jacoco-single-module.iml" filepath="$PROJECT_DIR$/sonar-jacoco-single-module/sonar-jacoco-single-module.iml" />
+    </modules>
+  </component>
+</project>
