@@ -8,6 +8,7 @@
 
 name: Java CI with Maven
 
+
 on:
   push:
     branches: [ "master" ]
@@ -24,6 +25,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - run: echo ${{ vars }} 
     - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
     - uses: actions/checkout@v3
     - run: echo "Checkout completed - ${{github.workspace}}"
