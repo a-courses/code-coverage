@@ -30,9 +30,9 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - run : echo "JAVA 17 setup completed"
-    - run : echo "Running the maven build"
     - name: Build with Maven by ${{ github.actor }}
       run: |
+        echo "Running the maven build"
         mvn -U -B clean install --file pom.xml
         echo "Maven clean install completed"  
 
