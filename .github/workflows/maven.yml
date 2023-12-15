@@ -32,8 +32,9 @@ jobs:
     - run : echo "JAVA 17 setup completed"
     - run : echo "Running the maven build"
     - name: Build with Maven by ${{ github.actor }}
-      run: mvn -U -B clean install --file pom.xml
-    - run : echo "Maven clean install completed"  
+      run: |
+        mvn -U -B clean install --file pom.xml
+        echo "Maven clean install completed"  
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     # - name: Update dependency graph
