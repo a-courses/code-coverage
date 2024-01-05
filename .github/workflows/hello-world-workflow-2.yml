@@ -1,0 +1,21 @@
+name: hello-worldwf
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step1
+        run: echo "Hello World!"
+      - name: step2
+        run: sleep 20
+      - name: step3
+        run: echo "goodbye"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step2.1
+        run: echo "Hello World!"
+      - name: step2.2
+        run: sleep 25
+      - name: step3
+        run: echo "goodbye"
