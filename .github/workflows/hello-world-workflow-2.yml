@@ -1,4 +1,4 @@
-name: hello-worldwf
+name: hello-world-workflow-2
 on: push
 jobs:
   job1:
